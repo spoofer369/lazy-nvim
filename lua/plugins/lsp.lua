@@ -8,7 +8,7 @@ return {
 	{ "hrsh7th/nvim-cmp" },
 	{
 		"L3MON4D3/LuaSnip",
-		dependencies = { 
+		dependencies = {
 			"rafamadriz/friendly-snippets",
 			"saadparwaiz1/cmp_luasnip",
 		},
@@ -32,7 +32,7 @@ return {
 				},
 				format_on_save = {
 					-- These options will be passed to conform.format()
-					timeout_ms = 200,
+					timeout_ms = 500,
 					lsp_format = "fallback",
 				},
 			})
