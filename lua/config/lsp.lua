@@ -24,8 +24,8 @@ require("luasnip.loaders.from_vscode").lazy_load()
 
 cmp.setup({
 	sources = {
-		{ name = "luasnip" },
 		{ name = "nvim_lsp" },
+		{ name = "luasnip" },
 	},
 	completion = {
 		completeopt = "menu,menuone,noinsert",
@@ -35,9 +35,6 @@ cmp.setup({
 		documentation = cmp.config.window.bordered(),
 	},
 	formatting = {
-		-- changing the order of fields so the icon is the first
-		fields = { "menu", "abbr", "kind" },
-
 		-- here is where the change happens
 		format = function(entry, item)
 			local menu_icon = {
