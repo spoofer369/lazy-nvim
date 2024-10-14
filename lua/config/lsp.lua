@@ -26,6 +26,7 @@ cmp.setup({
 	sources = {
 		{ name = "nvim_lsp" },
 		{ name = "luasnip" },
+		{ name = "vim-dadbod-completion" },
 	},
 	completion = {
 		completeopt = "menu,menuone,noinsert",

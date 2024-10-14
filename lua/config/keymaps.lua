@@ -22,3 +22,6 @@ vim.api.nvim_set_keymap("n", "<leader>q", ":bd<CR>", { silent = true })
 
 -- Lsp actions
 vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action)
+
+-- Dadbod UI
+vim.keymap.set("n", "<leader>dt", ":DBUIToggle<CR>", { silent = true })
